@@ -11,7 +11,7 @@ isdir = os.path.isdir(path)
 
 if isdir == False:
     os.mkdir('images')
-
+# os.rename to move move files to existing directory
 
 for jpg in glob.glob(".jpg"):
     new_path = 'images/' + jpg
